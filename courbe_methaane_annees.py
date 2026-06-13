@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 c = 300
 a = 5.07
 
-# point d'intersection des deux courbes
+# point d'intersection des deux courbes (pour que la courbe soit continue)
 b = 300 - a * 1985
 
 # itervalles des deux morceaux de courbe
