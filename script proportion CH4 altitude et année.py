@@ -30,7 +30,7 @@ def augmentation_altitude(coef, altitude):
     prop_annee = prop_altitude * coef
     return prop_annee
 
-prop = concentration_CH4(2000)
+prop = concentration_CH4(2000) #essai du programme pour l'année 2000
 c=coef_augmentation(prop)
 print (concentration_CH4_altitude(20))
 print (augmentation_altitude(c,20))
